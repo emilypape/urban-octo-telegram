@@ -8,6 +8,7 @@ body {
     background-color: #d9dcd6;
 }
 
+/*Begin header and nav bar*/
 .header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -45,10 +46,7 @@ a {
     color: #ffffff;
     text-decoration: none;
 }
-
-p {
-    font-size: 16px;
-}
+/*End header and nav bar*/
 
 .hero {
     height: 800px;
@@ -59,6 +57,7 @@ p {
     background-position: center;
 }
 
+/*begin main content section*/
 .float-left {
     float: left;
     margin-right: 25px;
@@ -69,12 +68,36 @@ p {
     margin-left: 25px;
 }
 
+p {
+    font-size: 16px;
+}
+
+.optimization-reputation-marketing {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+.optimization-reputation-marketing img {
+    max-height: 200px;
+}
+
+.optimization-reputation-marketing h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
 .content {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
+/*end main content section*/
 
+/*Begin aside section*/
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -101,24 +124,7 @@ p {
     margin: 10px auto;
     max-width: 150px;
 }
-
-.optimization-reputation-marketing {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-.optimization-reputation-marketing img {
-    max-height: 200px;
-}
-
-.optimization-reputation-marketing h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
+/*End Aside Section*/
 
 .footer {
     padding: 30px;
